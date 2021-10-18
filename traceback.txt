@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/episodes/interviewghosty/interviewghosty.rpy", line 126, in script
+    Tara" Before we go, what's one thing you'd like to tell all the other ghosts out there?"
+Exception: Sayer 'Tara' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/episodes/interviewghosty/interviewghosty.rpy", line 126, in script
+    Tara" Before we go, what's one thing you'd like to tell all the other ghosts out there?"
+  File "renpy/ast.py", line 680, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "renpy/ast.py", line 574, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'Tara' is not defined.
+
+Windows-10-10.0.19041
+Ren'Py 7.4.6.1693
+ITYS 1.0
+Sun Oct 17 23:36:37 2021

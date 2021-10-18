@@ -1,0 +1,42 @@
+=== Regarding Mods ===
+
+We tried to make modding the game as easy as possible. Take a look at the .rpy files in the episodes folder and follow the same format for creating your own custom scenes: they'll be added to the episode select at the start.
+
+That said, please don't be a jerk about it, y'know? All the in-game art (sprites/background/effects) and code was created by minute, and the Halloween 2018 special features a lot of art from other artists. These assets are for use within ITYS and any mods only - You can not put them into other projects.
+
+If you'd like us to make more moddable content, be polite with these assets but also, please let us know if this is something that interests you!
+
+=== Creating A Custom Scene ===
+
+In the game/episodes/ folder, create a new folder and name it.
+Create an .rpy file. On the top of the file, you'll create the episode container. 
+- - - - - - - - - - - - - 
+
+init -1 python:
+    episodes.append(Episode("YOUR EPISODE TITLE","LABELTOJUMPTO","PATH TO YOUR ICON.PNG FILE"))
+
+- - - - - - - - - - - - - 
+Example:
+init -10 python:
+    episodes.append(Episode("Stay Spooky, Maddie!","stayspooky","episodes/stayspooky/icon.png"))
+
+label stayspooky:
+## script continues here
+- - - - - - - - - - - - - 
+
+The number after the init determines where in the episode order your episode will be created. I recommend setting it to -1, so it'll come after all the canon content.
+
+=== Adding Custom Images and Sounds ===
+
+To reduce file roaming, I recommend putting custom images inside your episodes folder and declaring them in the script. IE:
+
+- - - - - - - - - - - - - 
+image custom_image = "episodes/your episode path/image.png"
+define audio.your_song = "episodes/your episode path/song.ogg"
+- - - - - - - - - - - - - 
+
+However, you can also add images to the game/images/ folder and have them be automatically declared. When your mod is ready for release, it'll be your responsibility to zip everything together in a sensible way.
+
+=== Other options ===
+
+For advanced Ren'Py users, you can package your mod into an .rpa and distribute it that way. It'll be easier to install than a zip, and you'll be able to organize your files however you like. Keep in mind you'll likely have to script your episode in a separate Ren'Py project though!

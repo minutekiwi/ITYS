@@ -1,0 +1,14 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+The label phaseTWO is defined twice, at
+  File "game/episodes/phasetwo/phasetwo.rpyc", line 3 and
+  File "game/episodescripts/phasetwo.rpy", line 3.
+
+The label phaseONE is defined twice, at
+  File "game/episodes/stayspooky/stayspookymaddie.rpyc", line 3 and
+  File "game/episodescripts/stayspookymaddie.rpy", line 3.
+
+Ren'Py Version: Ren'Py 7.3.5.606
+Fri Oct 30 14:07:33 2020
