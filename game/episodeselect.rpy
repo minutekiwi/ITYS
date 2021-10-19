@@ -2,7 +2,7 @@
 # Episode class
 init -500 python:
     class Episode:
-        def __init__(self, title, script, icon, has_va=False):
+        def __init__(self, title, script, icon, has_va=True):
             self.title = title
             self.script = script
             self.icon = icon
