@@ -262,7 +262,7 @@ screen quick_menu():
 
     ## Ensure this appears on top of other screens.
     zorder 100
-
+    use renedit_overlay
     if quick_menu:
         vbox:
             style_prefix "quick"
@@ -864,16 +864,30 @@ screen preferences():
                                 xsize 553
                                 hbox:
                                     xsize 205
-                                    text _("MADDIE") color "#677a12" xalign 0.0
+                                    text _("MADDIE") color "#BDD060" xalign 0.0
                                     #imagebutton auto "gui/button/mute_%s.png" action ToggleVoiceMute("maddie") xalign 1.0
                                 bar value SetCharacterVolume("maddie", volume=None) style "slider" xsize 290 xalign 1.0 right_gutter 0
                             hbox:
                                 xsize 553
                                 hbox:
                                     xsize 205
-                                    text _("TARA") color "#83151e" xalign 0.0
+                                    text _("TARA") color "#D1290E" xalign 0.0
                                     #imagebutton auto "gui/button/mute_%s.png" action ToggleVoiceMute("tara") unhovered SetVariable("tooltips","") hovered SetVariable("tooltips",taravoicett) xalign 1.0
                                 bar value SetCharacterVolume("tara", volume=None) style "slider" xsize 290 xalign 1.0 right_gutter 0
+                            hbox:
+                                xsize 553
+                                hbox:
+                                    xsize 205
+                                    text _("ABBY") color "#C6B0F1" xalign 0.0
+                                    #imagebutton auto "gui/button/mute_%s.png" action ToggleVoiceMute("tara") unhovered SetVariable("tooltips","") hovered SetVariable("tooltips",taravoicett) xalign 1.0
+                                bar value SetCharacterVolume("abby", volume=None) style "slider" xsize 290 xalign 1.0 right_gutter 0
+                            hbox:
+                                xsize 553
+                                hbox:
+                                    xsize 205
+                                    text _("MORGAN") color "#D27838" xalign 0.0
+                                    #imagebutton auto "gui/button/mute_%s.png" action ToggleVoiceMute("tara") unhovered SetVariable("tooltips","") hovered SetVariable("tooltips",taravoicett) xalign 1.0
+                                bar value SetCharacterVolume("morgan", volume=None) style "slider" xsize 290 xalign 1.0 right_gutter 0
 
                     if config.has_music or config.has_sound or config.has_voice:
                         null height gui.pref_spacing

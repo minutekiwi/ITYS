@@ -24,9 +24,9 @@ screen ctc(arg="last"):
 
 define tara = Character("Tara", image="tara", voice_tag="tara",callback = tara_beep,namebox_background = "gui/name_tara.png", window_background=Frame("gui/textbox_tara.png",10,10))
 define maddie = Character("Maddie", image="maddie",voice_tag="maddie",callback= maddie_beep, namebox_background = "gui/name_maddie.png", window_background=Frame("gui/textbox_maddie.png",10,10))
-define abby = Character("Abigail",callback = abby_beep, namebox_background = "gui/name_abigail.png", window_background=Frame("gui/textbox_abby.png",10,10))
-define morgan = Character("Morgan", callback=morgan_beep,namebox_background = "gui/name_morgan.png", window_background=Frame("gui/textbox_morgan.png",10,10))
-define taramorgan = Character("Tara & Morgan", callback=taramorgan_beep,namebox_background="gui/name_taramorgan.png", window_background=Frame("gui/textbox_taramorgan.png",10,10))
+define abby = Character("Abigail", image="abby",voice_tag="abby",callback = abby_beep, namebox_background = "gui/name_abigail.png", window_background=Frame("gui/textbox_abby.png",10,10))
+define morgan = Character("Morgan", image="morgan",voice_tag="morgan", callback=morgan_beep,namebox_background = "gui/name_morgan.png", window_background=Frame("gui/textbox_morgan.png",10,10))
+define taramorgan = Character("Tara & Morgan", image="taramorgan",voice_tag="taramorgan", callback=taramorgan_beep,namebox_background="gui/name_taramorgan.png", window_background=Frame("gui/textbox_taramorgan.png",10,10))
 
 image ityslogo = "gui/logo small.png"
 image white = Solid("#fff")
