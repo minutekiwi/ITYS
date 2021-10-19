@@ -280,7 +280,7 @@ with diz
 tara "You see this? Being awesome literally runs in their family. How’s {i}that{/i} for evolution?"
 show abby raised sigh:
     ease 3 xpos .25 rotate 0
-abby "Perhaps it has something to do with our bloodline being mixed with fair-{w=1}{nw}"
+abby "Perhaps it has something to do with our bloodline being mixed with fair-{w=4.65}{nw}" id itys_f977e68d
 show maddie shock yell:
     rotate -12 xpos -.15 yalign .5 xzoom -1
     ease .15 xpos .15
