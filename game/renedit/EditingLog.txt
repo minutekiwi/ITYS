@@ -1,0 +1,29 @@
+Issue logged at (u'game/episodes/interviewghosty/interviewghosty.rpy', 31)
+auto_filename=VA/interviewghosty_ab2e88c3.ogg
+filename=None
+sustain=False
+tag=morgan
+tlid=interviewghosty_ab2e88c3:
+morgan: Hey.
+
+----
+
+Issue logged at (u'game/episodes/interviewghosty/interviewghosty.rpy', 31)
+auto_filename=VA/interviewghosty_cfdb304d.ogg
+filename=None
+sustain=False
+tag=morgan
+tlid=interviewghosty_cfdb304d:
+morgan: Sure. From what I've seen, ghosts like to float around barefoot and turn into little lights when they don't want to be seen.
+
+----------------------------
+
+Issue logged at (u'game/episodes/interviewghosty/interviewghosty.rpy', 33)
+auto_filename=VA/interviewghosty_ef5b6536.ogg
+filename=None
+sustain=False
+tag=morgan
+tlid=interviewghosty_ef5b6536:
+morgan: And they're very gay.
+
+----------------------------
