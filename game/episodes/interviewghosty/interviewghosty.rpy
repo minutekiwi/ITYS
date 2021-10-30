@@ -1,6 +1,7 @@
 init -197 python:
     episodes.append(Episode("Interview With A Ghost!","interviewghosty","episodes/interviewghosty/icon.png"))
 label interviewghosty:
+stop music fadeout 1
 scene bg room
 show tara fistup closed grin:
     xpos .25 yalign .5
@@ -119,6 +120,7 @@ show morgan smile default neutral
 with diz
 tara "Come on out, Abigail Dalsing!"
 
+play music snowydays
 show abby uclosed open raised oho:
     xpos 1 yalign .5
     ease 1 xpos .5
@@ -335,6 +337,7 @@ show abby nya default -sparkle
 with diz
 tara "Woah! A real former-ghost demonstration!"
 
+stop music fadeout 1
 show tara cat default fistup
 show abby uclosed sigh
 with diz
@@ -395,6 +398,7 @@ show abby horror small -sparkle:
     repeat 2
 tara "!!!! AHHHHHH!!!"
 
+play music restlessone
 show tara dot:
     xoffset 0
 show morgan smile default
@@ -540,7 +544,7 @@ show tara nyell shock fierce
 show morgan wink
 
 with diz
-taramorgan "And we told you so."
+taramorgan "And we told you so." id interviewghosty_d6bf49f0
 
 show black zorder 5:
     alpha 0
@@ -577,5 +581,6 @@ maddie "Sure, we can stay for a bit. We've got time."
 
 window hide
 scene black with Dissolve(2.0)
+stop music fadeout 2.5
 $ renpy.pause(2.5)
 return
