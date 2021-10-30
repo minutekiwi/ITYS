@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-The label phaseTWO is defined twice, at
-  File "game/episodes/phasetwo/phasetwo.rpyc", line 3 and
-  File "game/episodescripts/phasetwo.rpy", line 3.
+File "game/episodes/interviewghosty/interviewghosty.rpy", line 580: end of line expected.
+    show white with Dissolve(5.0) zorder 6
+                                  ^
 
-The label phaseONE is defined twice, at
-  File "game/episodes/stayspooky/stayspookymaddie.rpyc", line 3 and
-  File "game/episodescripts/stayspookymaddie.rpy", line 3.
-
-Ren'Py Version: Ren'Py 7.3.5.606
-Fri Oct 30 14:07:33 2020
+Ren'Py Version: Ren'Py 7.4.9.2142
+Tue Oct 19 23:28:02 2021

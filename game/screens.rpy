@@ -262,7 +262,7 @@ screen quick_menu():
 
     ## Ensure this appears on top of other screens.
     zorder 100
-    use renedit_overlay
+    #use renedit_overlay
     if quick_menu:
         vbox:
             style_prefix "quick"

@@ -544,7 +544,7 @@ show abby_laugh_os:
     ease 1 yoffset -15
 
 with diz
-abby "Don’t forget the smug sense of self-satisfaction, Tara!"
+abby "Don’t forget the smug sense of satisfaction, Tara!" id itys_fa0da4e3
 show tara uclosed fierce yell fistup
 hide offscreen_abby
 hide abby_laugh_os
@@ -566,7 +566,7 @@ show morgan away raised sigh
 with diz
 morgan "I’m pretty sure it actually is, Maddie."
 show morgan smile
-maddie "...{w=.5}{nw}"
+maddie "...{w=.5}{nw}" id itys_d5231967
 hide maddie_annoy2_os
 show offscreen_mad:
     xalign .5 xpos .85 yalign .95 yoffset -15
@@ -616,7 +616,7 @@ with diz
 tara "I’m sure we all are! Just one more reason to tune in!"
 show tara uclosed grin wide
 with diz
-tara "And we’ve got even more reasons, too! So many reasons that I’m not even gonna bother naming them all cuz there’s just SO MANY. Trust me."
+tara "And we’ve got even more reasons, too! So many reasons that I’m not even gonna bother naming them all off cuz there’s just SO MANY. Trust me." id itys_0e706ffc
 show morgan wink raised laugh
 with diz
 morgan "And not because she’s making them up as she goes along."
